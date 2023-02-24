@@ -8,20 +8,18 @@ stampa un messaggio appropriato sull’esito del controllo.
 
 ### Step 1 Creare una  lista di email  che avrà accesso al sito
 
-*  Creo un array con al suo interno delle email per accedere al sito.
+*  Creo un array con al suo interno una lista di email per accedere al sito.
 
 ### Step 2 Chiedere all'utente la sua email
 
-* Creo una variabile1 a cui assegnare un prompt.
+* Creo una variabile1 a cui assegno un prompt.
+* Creo una variabile2 a cui assegno il valore false.
 
 ### Step 3 Filtrare gli utenti
 
-* Per fare in modo che il computer controlli se l'email inserita dall'utente corrisponde a uno nella lista, usiamo un ciclo.
-* Il ciclo durerà quanto il numero di email nell'array.
-* All'interno del ciclo, possiamo porre una condizione.
-* SE l'email inserita è presente nell'array, l'utente avrà accesso al sito e il ciclo si fermerà.
-* ALTRIMENTI, l'email non è presente nell'array e quindi partirà un alert "Accesso rifiutato".
-
+* All'interno di un ciclo, creo un variabile3 a cui assegno il contenuto dell'array.
+* Creo una condizione per cui SE la variabile1 corrisponde alla variabile3 allora la variabile2 diventa True.
+* Adesso fuori dal ciclo, creo una condizione per cui SE la variabile2 è True allora facciamo accedere l'utente altrimenti no.
 
 # Gioco dei dadi
 Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
